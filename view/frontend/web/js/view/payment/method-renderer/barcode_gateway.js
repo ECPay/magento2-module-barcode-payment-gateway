@@ -11,14 +11,16 @@ define(
     function (Component) {
         'use strict';
 
-        return Component.extend({
-            defaults: {
-                template: 'Ecpay_BarcodePaymentGateway/payment/form'
-            },
+        return Component.extend(
+            {
+                defaults: {
+                    template: 'Ecpay_BarcodePaymentGateway/payment/form'
+                },
 
-            getCode: function() {
-                return 'ecpay_barcode_gateway';
+                getCode: function () {
+                    return 'ecpay_barcode_gateway';
+                }
             }
-        });
+        );
     }
 );

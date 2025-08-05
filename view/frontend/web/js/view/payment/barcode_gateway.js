@@ -20,7 +20,10 @@ define(
                 component: 'Ecpay_BarcodePaymentGateway/js/view/payment/method-renderer/barcode_gateway'
             }
         );
-        /** Add view logic here if needed */
+        /**
+    * 
+    * Add view logic here if needed 
+    */
         return Component.extend({});
     }
 );
